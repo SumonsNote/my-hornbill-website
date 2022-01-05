@@ -7,6 +7,14 @@ body {
     text-align: center;
     font-weight: 500;
   }
+  .title-logo {
+    display: flex;
+    padding: 0% 28%;
+    justify-content: space-between;
+  }
+  .title-logo img {
+    width: 15%;
+  }
   .green-title {
       color: green;
   }
