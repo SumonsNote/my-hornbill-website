@@ -2,10 +2,13 @@ body {
     font-family: "Bebas Neue", cursive;
     margin: 0;
   }
-  .title {
+  .title,.hornbill-society {
     font-size: 50px;
     text-align: center;
     font-weight: 500;
+  }
+  .green-title {
+      color: green;
   }
   h2 {
     font-size: 40px;
@@ -21,6 +24,9 @@ body {
   }
   .front-section-img img {
     width: 85%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    border: 5px solid white;
   }
   .front-section-story,
   .front-section-img {
@@ -51,4 +57,9 @@ body {
       margin: 45px;
       border-radius: 11px;
       box-shadow: 10px 10px 40px gray;
+  }
+  footer p{
+    text-align: center;
+    font-size: 22px;
+    opacity: .7;
   }
