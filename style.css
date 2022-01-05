@@ -8,8 +8,8 @@ body {
   }
   .title-logo {
     display: flex;
-    padding: 0% 28%;
-    justify-content: space-between;
+    padding: 0% 30%;
+    justify-content: space-around;
   }
   .title-logo img {
     width: 15%;
