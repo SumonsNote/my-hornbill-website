@@ -1,0 +1,54 @@
+body {
+    font-family: "Bebas Neue", cursive;
+    margin: 0;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  p {
+    opacity: 0.8;
+    font-weight: 300;
+  }
+  .front-section {
+    display: flex;
+    padding-bottom: 150px;
+  }
+  .front-section-img img {
+    width: 85%;
+  }
+  .front-section-story,
+  .front-section-img {
+    width: 50%;
+    padding: 0% 2%;
+  }
+  .hornbill-link {
+    background: rgb(38, 135, 171);
+    background: linear-gradient(
+      90deg,
+      rgba(38, 135, 171, 1) 9%,
+      rgba(32, 226, 159, 1) 89%
+    );
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 300;
+  }
+  .image-gallery {
+      flex-wrap: wrap;
+  }
+  .image-gallery img {
+      width: 404px;
+      height: 294px;
+      border: 5px solid #f3f3f3;
+      margin: 45px;
+      border-radius: 11px;
+      box-shadow: 10px 10px 40px gray;
+  }
